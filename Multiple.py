@@ -24,7 +24,7 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 diabetes_model = pickle.load(open(r'diabetes_model.sav', 'rb'))
 
 
-heart_disease_model = pickle.load(open(f'C:\\Users\\hlptk\\Desktop\\Internship 8 sem\\Disease Prediction System\\Saved Models\\heart_disease_model.sav' ,'rb'))
+heart_disease_model = pickle.load(open(r'heart_disease_model.sav' ,'rb'))
 
 
 
